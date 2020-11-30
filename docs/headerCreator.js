@@ -20,7 +20,7 @@ document.write('\
         </a>\
         <a href="index.html">\
           <div class="head_button">\
-            <h2>Rituals</h2>\
+            <h2>Teachings</h2>\
           </div>\
         </a>\
         <a href="index.html">\
