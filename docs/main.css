@@ -58,13 +58,13 @@ background-color : #CEE8FF;
 float : left;
 height : 75px;
 height : 75px;
-margin-left : 1vh;
-margin-right : 5vw;
+margin-left : 10px;
+margin-right : 10px;
 text-align : center;
 padding-bottom: 2vh;
 }
 
 .logo_button img {
 width : 70px;
-height : 70px;
+height : 64px;
 }
