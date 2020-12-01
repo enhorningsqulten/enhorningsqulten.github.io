@@ -13,7 +13,7 @@ document.write('\
             <h2>Home</h2>\
           </div>\
         </a>\
-        <a href="index.html">\
+        <a href="gospel.html">\
           <div class="head_button">\
             <h2>Gospel</h2>\
           </div>\
