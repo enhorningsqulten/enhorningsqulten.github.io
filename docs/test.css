@@ -206,25 +206,30 @@ h1 {
         visibility: visible;
     }
     
-    .announcements {
+    .content {
         background-color: #181818;
-        height: 200px;
+        height: 250px;
         padding: 10px;
+        font-size: 19px;
     }
 
     .smalltitle{
-        font-size: 10px; 
+        font-size: 30px; 
+        margin-bottom: 20px;
     }
 
     #siteheader{
-        height: 100px;
+        height: 120px;
+        margin-bottom: 25px;
+        border-bottom: #f10050 3px outset;
     }
 
     .logo{
         width: 100px;
         padding: 0px;
         margin-left: 10px;
-        margin-top: 10px;
+        margin-top: 12px;
+        float: left;
 
     }
 
@@ -232,24 +237,26 @@ h1 {
         width: 90px;
         height: 90px;
         
+        
     }
     #links{
-        display: inline-block;
+       
         height: 50px;
-        padding-bottom: 20px;
+        border-bottom: #f10050 3px outset;
         
     }
     .links{
-
+        margin-top: 70px;
         float: left;
     }
     
 
-    #links a {
-        display: block;
+    #siteheader a {
+        display: inline-block;
         padding: 8px 25px;
         font-size: 30px;
         text-decoration: none;
+        vertical-align: middle;
     }
 
     .links :hover {
