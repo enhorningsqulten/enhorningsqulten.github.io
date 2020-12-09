@@ -20,7 +20,7 @@ h2 {
 }
 
 h1 {
-    color : #f10050;
+    color : #498366;
     font-family: 'Lato', sans-serif;
     font-weight : 600;
     font-size : 45px;
@@ -132,7 +132,7 @@ h1 {
         background-color: rgba(32, 32, 32, 0.2);
         padding: 15px;
         border-radius: 5px;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Comic Sans', sans-serif;
     }
     .content_block_gospel
     {
@@ -141,7 +141,7 @@ h1 {
         padding: 5px;
         border-radius: 5px;
         color : #f10050;
-        font-family: 'Lato', sans-serif;
+        font-family: "Comic Sans", sans-serif;
     }
     .content_block_header
     {
@@ -211,6 +211,7 @@ h1 {
         height: 250px;
         padding: 10px;
         font-size: 19px;
+        
     }
 
     .smalltitle{
@@ -219,7 +220,7 @@ h1 {
     }
 
     #siteheader{
-        height: 120px;
+        height: 100px;
         margin-bottom: 25px;
         border-bottom: #f10050 3px outset;
     }
@@ -228,14 +229,14 @@ h1 {
         width: 100px;
         padding: 0px;
         margin-left: 10px;
-        margin-top: 12px;
+        margin-top: 15px;
         float: left;
 
     }
 
     .logo img{
-        width: 90px;
-        height: 90px;
+        width: 70px;
+        height: 70px;
         
         
     }
@@ -246,7 +247,7 @@ h1 {
         
     }
     .links{
-        margin-top: 70px;
+        margin-top: 50px;
         float: left;
     }
     
