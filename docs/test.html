@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <header>
+    <title>EHQ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <link rel="icon" href="logo.png" >
+    <meta charset="utf-8" />
+  </header>
+
+  <body>
+      <div id="siteheader">
+        <div class="logo">
+          <img src="img/logo.png" alt="Logga">
+        </div>
+
+      </div>
+      <div id="links">
+        <div class="links">
+          <a href="index.html">
+            <div>Hem</div>
+        </a>
+        </div>
+        <div class="links">
+          <a href="gospel.html">
+            <div>Gospel</div>
+        </a>
+        </div>
+        <div class="links">
+          <a href="kontakt.html">
+            <div>Kontakt</div>
+        </a>
+        </div>
+    </div>
+    <div class="announcements">
+        <div class="smalltitle">
+            Senaste inläggen
+        </div>
+        <div class="announcementcontent"></div>
+        <div class="announcementcontent"></div>
+        <div class="announcementcontent"></div>
+    </div>
+    <div>
+      -var names = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+
+-var days = [30, 31, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 1, 2];
+
+.calendar-container
+  .calendar-header
+    h1 
+      | November
+      button ▾
+    p 2018
+  .calendar
+    - for(i=0;i<7;i++)
+      span.day-name= names[i]
+
+    - for(j=0;j<35;j++)
+      - if(j == 0 || j == 1 || j == 33 || j == 34)
+        div.day.day--disabled= days[j]
+
+      - else   
+        div.day= days[j]
+    section.task.task--warning Projects
+    section.task.task--danger Design Sprint
+    section.task.task--primary Product Checkup 1
+     .task__detail
+        h2 Product Checkup 1
+        p 15-17th November
+    section.task.task--info Product Checkup 2
+    </div>
+       <div class="avskumscopy">
+         &copy; Enhörningsqulten
+        </div>
+  </body>
+</html>
