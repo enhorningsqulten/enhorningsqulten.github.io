@@ -20,7 +20,7 @@ h2 {
 }
 
 h1 {
-    color : #498366;
+    color : #f10050;
     font-family: 'Lato', sans-serif;
     font-weight : 600;
     font-size : 45px;
@@ -205,24 +205,45 @@ h1 {
     #bigscreen{
         visibility: visible;
     }
-    
+    #siteheader{
+        height: 100px;
+        margin-bottom: 25px;
+        border-bottom: #f10050 3px outset;
+    }
+
     .content {
         background-color: #181818;
         height: 250px;
         padding: 10px;
-        font-size: 19px;
-        
+        font-size: 19px;   
+    }
+
+    .container{
+        width: 100%;
+        padding: none;
+        height: 850px;
+    }
+
+    .gospelmeny{
+        width: 20%;
+        min-height: 800px;
+        background-color: #181818;
+        margin-left : 8%;
+        float: left;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .gospelview{
+        width: 60%;
+        min-height: 800px;
+        background-color: #181818;
+        margin-right : 8%;
+        float: right;
     }
 
     .smalltitle{
         font-size: 30px; 
         margin-bottom: 20px;
-    }
-
-    #siteheader{
-        height: 100px;
-        margin-bottom: 25px;
-        border-bottom: #f10050 3px outset;
     }
 
     .logo{
@@ -240,12 +261,7 @@ h1 {
         
         
     }
-    #links{
-       
-        height: 50px;
-        border-bottom: #f10050 3px outset;
-        
-    }
+    
     .links{
         margin-top: 50px;
         float: left;
