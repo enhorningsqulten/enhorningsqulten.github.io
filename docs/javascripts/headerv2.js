@@ -18,8 +18,8 @@ document.write('\
               <div>Kontakt</div>\
           </a>\
           </div>\
-          <div class="links">\
-            <a href="https://calendar.google.com/calendar/u/2?cid=cXVsdHNjaHRhYmVuQGdtYWlsLmNvbQ">\
+          <div class="links" >\
+            <a href="https://calendar.google.com/calendar/u/2?cid=cXVsdHNjaHRhYmVuQGdtYWlsLmNvbQ" target="_blank">\
               <div>Kalender</div>\
           </a>\
           </div>\

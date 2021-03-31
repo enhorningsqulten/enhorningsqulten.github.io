@@ -36,6 +36,8 @@ h1 {
     font-family: 'Lato', sans-serif;
     font-weight : 500;
     font-size : 20px;
+    position: absolute;
+    bottom:0;
 }
 
 .left {
@@ -220,19 +222,24 @@ h1 {
         border-bottom: #f10050 3px outset;
     }
 
-    .content {
-        background-color: #181818;
+    .indexcontent {
+        
         height: 250px;       
+        
+      
+    }
+
+    .content{
         font-size: 19px;  
         margin-bottom: 20px; 
-      
+        background-color: #222;
     }
     
     .textish {
         padding: 10px;
     }
     .happenings {
-        background-color: #222;
+        background-color: #252525;
         height: 200px;
         padding: 10px;
         font-size: 19px;  
@@ -246,6 +253,10 @@ h1 {
         height: 850px;
     }
 
+    .menyblock {
+        margin-bottom: 15px;
+    }
+
     .gospelmeny{
         width: 20%;
         min-height: 800px;
@@ -257,15 +268,30 @@ h1 {
     }
     .gospelview{
         width: 60%;
-        min-height: 800px;
+        min-height: 810px;
         background-color: #181818;
         margin-right : 8%;
         float: right;
     }
 
+    .gospelview div{
+        width: 100%-40px;
+        padding: 20px;       
+        text-align: center;
+    }
+
     .smalltitle{
         font-size: 30px; 
+        font-weight: bold;
+        padding:15px 0 0 15px;
         margin-bottom: 20px;
+       
+    }
+    .gospeltitle{
+        font-size: 30px; 
+        font-weight: bold;
+        margin-bottom: 25px;
+       margin-top: 10px;
     }
 
     .logo{

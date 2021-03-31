@@ -1,0 +1,59 @@
+.menyblock{
+    display: inline-block;
+    width: 95%;
+    padding: 5 0;
+    font-size: 15;
+    cursor:pointer;
+    margin-bottom: 15px;
+}
+
+.gospeltitle{
+    font-size: 30px; 
+    font-weight: bold;
+    margin-bottom: 25px;
+   margin-top: 10px;
+}
+
+
+.gospelmeny{
+    width: 20%;
+    min-height: 800px;
+    background-color: #181818;
+    margin-left : 8%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+.gospelview{
+    width: 60%;
+    min-height: 810px;
+    background-color: #181818;
+    margin-right : 8%;
+    float: right;
+}
+
+.gospelview div{
+    width: 100%-40px;
+    padding: 20px;       
+    text-align: center;
+}
+
+.menyblock:active, .menyblock:hover{
+    background-color: #222222;
+}
+
+#hymn1 {
+    display: none;
+}
+
+#hymn2 {
+    display: none;
+}
+
+#hymn3 {
+    display: none;
+}
+
+#hymn4 {
+    display: none;
+}
