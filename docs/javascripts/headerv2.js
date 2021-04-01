@@ -19,9 +19,12 @@ document.write('\
           </a>\
           </div>\
           <div class="links" >\
-            <a href="https://calendar.google.com/calendar/u/2?cid=cXVsdHNjaHRhYmVuQGdtYWlsLmNvbQ" target="_blank">\
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target= "_blank">\
               <div>Kalender</div>\
           </a>\
           </div>\
       </div>\
 ');
+
+
+//<a href="https://calendar.google.com/calendar/u/2?cid=cXVsdHNjaHRhYmVuQGdtYWlsLmNvbQ" target="_blank">\
